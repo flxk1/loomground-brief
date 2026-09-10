@@ -1,0 +1,28 @@
+# loomground-brief
+
+> Selects the minimum unresolved material required for human review.
+
+## Problem
+A supervisor gets the whole log or nothing. Only the unresolved material, ordered.
+
+## Install
+```
+pip install loomground-brief
+```
+
+## Usage
+```python
+from loomground_brief import oversight_brief
+brief = oversight_brief(premises=premises, space=space, divergences=divergences)
+brief.items, brief.settled_omitted
+```
+
+## Interface
+- inputs (all optional): `premises: Iterable[StatusedPremise]` · `space: DecisionSpace` · `negative_space: dict` · `divergences: (ref, why)`
+- output: `OversightBrief(items: BriefItem(kind, ref, why, explains), settled_omitted: int)`, ordered by `KIND_ORDER`
+- from solver: `decision.DecisionSpace` · `epistemic_status.StatusedPremise` · `epistemic_status.root_causes`
+
+## Family
+Diagnostic operator; consumes `loomground-solver` 0.5; consumed by hosts. Pipeline: `source → loomground-ingest → loomground-versum → loomground-solver → loomground-brief`. Operator contract: [spec/OPERATORS.md](https://github.com/flxk1/loomground/blob/main/spec/OPERATORS.md). [docs/operator.md](docs/operator.md).
+
+Language: loomground — guide https://github.com/flxk1/loomground/blob/main/llms.txt (the .lg language an agent reads, emits, validates); catalogue https://github.com/flxk1/loomground/blob/main/CATALOGUE.json
