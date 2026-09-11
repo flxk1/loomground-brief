@@ -19,7 +19,7 @@ authors = [{ name = "Loomground Contributors" }]
 # Consumed from solver: decision.DecisionSpace, epistemic_status.{EpistemicStatus,
 #   StatusedPremise,root_causes}. root_causes lands in 0.5.0 and exists in no
 #   earlier release, so this floor is load-bearing rather than conventional.
-dependencies = ["loomground-solver>=0.5,<0.6"]
+dependencies = ["loomground-solver>=0.5,<0.7"]
 dynamic = ["version"]
 
 [project.optional-dependencies]
