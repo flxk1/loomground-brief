@@ -5,7 +5,9 @@
       "release-type": "python",
       "package-name": "loomground-brief",
       "changelog-path": "CHANGELOG.md",
-      "version-file": "src/loomground_brief/_version.py"
+      "extra-files": [
+        "src/loomground_brief/_version.py"
+      ]
     }
   }
 }
