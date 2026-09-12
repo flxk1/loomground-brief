@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.1](https://github.com/flxk1/loomground-brief/compare/loomground-brief-v0.2.0...loomground-brief-v0.2.1) (2026-09-12)
+
+
+### Bug Fixes
+
+* release version source (extra-files marker), 0.2.0 ([615fba7](https://github.com/flxk1/loomground-brief/commit/615fba7e76c623a949caf48ae209d3439f26a49d))
+
 ## [0.2.0](https://github.com/flxk1/loomground-brief/compare/loomground-brief-v0.1.0...loomground-brief-v0.2.0) (2026-09-11)
 
 
