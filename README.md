@@ -13,7 +13,7 @@ A supervisor gets the whole log or nothing. Only the unresolved material, ordere
 ## Install
 
 ```
-pip install loomground-brief
+pip install git+https://github.com/flxk1/loomground-brief
 ```
 
 ## Usage
@@ -46,7 +46,11 @@ Diagnostic operator; consumes `loomground-solver` 0.5–0.6; consumed by hosts. 
 
 ## Status
 
-0.1.0 · 16 tests · Python >=3.10 · solver 0.5–0.6
+0.2.0 · 16 tests · Python >=3.10 · solver 0.5–0.6
+
+## How this is made
+
+The code and documentation are written with Loomground agents running on Claude (Anthropic). The maintainer reads and corrects all of it.
 
 ## License
 
