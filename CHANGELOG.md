@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.2.1](https://github.com/flxk1/loomground-brief/compare/loomground-brief-v0.2.0...loomground-brief-v0.2.1) (2026-09-29)
+
+
+### Bug Fixes
+
+* release version source (extra-files marker), 0.2.0 ([ada3107](https://github.com/flxk1/loomground-brief/commit/ada3107e6dea7fe73677169f58056fb3683add39))
+
+
+### Documentation
+
+* correct stale claims; add How this is made ([286bdda](https://github.com/flxk1/loomground-brief/commit/286bdda3306d0e21da44f0bd119f832445636f41))
+* correct stale statements and add How this is made ([8dc5e78](https://github.com/flxk1/loomground-brief/commit/8dc5e781e8a9936fe3d9e7e820e87bb4b03b2ab0))
+* How this is made names no model vendor ([13b00e6](https://github.com/flxk1/loomground-brief/commit/13b00e68257f3858102594e9ff6d1c4179ca56b2))
+
 ## [0.2.0](https://github.com/flxk1/loomground-brief/compare/loomground-brief-v0.1.0...loomground-brief-v0.2.0) (2026-09-11)
 
 
